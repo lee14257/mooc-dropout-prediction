@@ -1,0 +1,89 @@
+============================ XGBoost ============================
+
+===== Best parameters set found on development set: ====================
+{'n_estimators': 500, 'learning_rate': 0.2}
+
+Peformance on each candidate H value:
+0.813 (+/-0.078) for {'n_estimators': 100, 'learning_rate': 0.0001}
+0.813 (+/-0.078) for {'n_estimators': 200, 'learning_rate': 0.0001}
+0.813 (+/-0.078) for {'n_estimators': 300, 'learning_rate': 0.0001}
+0.813 (+/-0.078) for {'n_estimators': 400, 'learning_rate': 0.0001}
+0.815 (+/-0.081) for {'n_estimators': 500, 'learning_rate': 0.0001}
+0.817 (+/-0.086) for {'n_estimators': 100, 'learning_rate': 0.001}
+0.817 (+/-0.086) for {'n_estimators': 200, 'learning_rate': 0.001}
+0.819 (+/-0.089) for {'n_estimators': 300, 'learning_rate': 0.001}
+0.821 (+/-0.088) for {'n_estimators': 400, 'learning_rate': 0.001}
+0.821 (+/-0.088) for {'n_estimators': 500, 'learning_rate': 0.001}
+0.823 (+/-0.101) for {'n_estimators': 100, 'learning_rate': 0.01}
+0.834 (+/-0.101) for {'n_estimators': 200, 'learning_rate': 0.01}
+0.843 (+/-0.104) for {'n_estimators': 300, 'learning_rate': 0.01}
+0.849 (+/-0.109) for {'n_estimators': 400, 'learning_rate': 0.01}
+0.854 (+/-0.111) for {'n_estimators': 500, 'learning_rate': 0.01}
+0.868 (+/-0.125) for {'n_estimators': 100, 'learning_rate': 0.1}
+0.879 (+/-0.146) for {'n_estimators': 200, 'learning_rate': 0.1}
+0.881 (+/-0.160) for {'n_estimators': 300, 'learning_rate': 0.1}
+0.882 (+/-0.167) for {'n_estimators': 400, 'learning_rate': 0.1}
+0.882 (+/-0.174) for {'n_estimators': 500, 'learning_rate': 0.1}
+0.879 (+/-0.147) for {'n_estimators': 100, 'learning_rate': 0.2}
+0.881 (+/-0.169) for {'n_estimators': 200, 'learning_rate': 0.2}
+0.882 (+/-0.182) for {'n_estimators': 300, 'learning_rate': 0.2}
+0.882 (+/-0.187) for {'n_estimators': 400, 'learning_rate': 0.2}
+0.882 (+/-0.190) for {'n_estimators': 500, 'learning_rate': 0.2}
+
+======= XGBoost Classification Report for Training Combined Feature Vector: =======
+
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.2, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=500,
+       n_jobs=1, nthread=None, objective='binary:logistic', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.84      0.90     57041
+           1       0.86      0.96      0.91     57041
+
+   micro avg       0.90      0.90      0.90    114082
+   macro avg       0.91      0.90      0.90    114082
+weighted avg       0.91      0.90      0.90    114082
+
+Training Time: 1935.533s
+
+Prediction Accuracy: 0.9014393155800214
+
+Prediction Accuracy (Balanced): 0.9014393155800213
+
+Prediction ROC/AUC Score: 0.9484668485924611
+
+Confusion Train matrix: 
+[[48160  8881]
+ [ 2363 54678]]
+
+
+======= XGBoost Classification Report for Testing Combined Feature Vector: =======
+
+XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.2, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=500,
+       n_jobs=1, nthread=None, objective='binary:logistic', random_state=0,
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1)
+              precision    recall  f1-score   support
+
+           0       0.75      0.57      0.65      4902
+           1       0.90      0.95      0.92     19111
+
+   micro avg       0.87      0.87      0.87     24013
+   macro avg       0.83      0.76      0.79     24013
+weighted avg       0.87      0.87      0.87     24013
+
+Prediction Accuracy: 0.874193145379586
+
+Prediction Accuracy (Balanced): 0.7604922634011215
+
+Prediction ROC/AUC Score: 0.8523213479301847
+
+Confusion Test Matrix: 
+[[ 2786  2116]
+ [  905 18206]]

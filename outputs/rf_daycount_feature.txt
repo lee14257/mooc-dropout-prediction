@@ -1,0 +1,65 @@
+============================ Random Forest ============================
+
+===== Best parameters set found on development set: ====================
+{'n_estimators': 150}
+
+Peformance on each candidate RF value:
+0.822 (+/-0.072) for {'n_estimators': 50}
+0.823 (+/-0.072) for {'n_estimators': 80}
+0.823 (+/-0.073) for {'n_estimators': 100}
+0.823 (+/-0.072) for {'n_estimators': 120}
+0.823 (+/-0.072) for {'n_estimators': 150}
+======= RF Classification Report for Training Combined Feature Vector: =======
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=150, n_jobs=None,
+            oob_score=False, random_state=0, verbose=0, warm_start=False)
+              precision    recall  f1-score   support
+
+           0       0.95      0.82      0.88     56849
+           1       0.84      0.96      0.89     56849
+
+   micro avg       0.89      0.89      0.89    113698
+   macro avg       0.89      0.89      0.89    113698
+weighted avg       0.89      0.89      0.89    113698
+
+Training Time: 228.529s
+
+Prediction Accuracy: 0.8863920209678271
+
+Prediction Accuracy (Balanced): 0.8863920209678271
+
+Prediction ROC/AUC Score: 0.9326878115646299
+
+Confusion Train matrix: 
+[[46454 10395]
+ [ 2522 54327]]
+
+
+======= RF Classification Report for Testing Combined Feature Vector: =======
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=150, n_jobs=None,
+            oob_score=False, random_state=0, verbose=0, warm_start=False)
+              precision    recall  f1-score   support
+
+           0       0.55      0.68      0.61      4902
+           1       0.91      0.86      0.89     19111
+
+   micro avg       0.82      0.82      0.82     24013
+   macro avg       0.73      0.77      0.75     24013
+weighted avg       0.84      0.82      0.83     24013
+
+Prediction Accuracy: 0.8230958230958231
+
+Prediction Accuracy (Balanced): 0.7707069551648286
+
+Prediction ROC/AUC Score: 0.821301000205781
+
+Confusion Test Matrix: 
+[[ 3344  1558]
+ [ 2690 16421]]

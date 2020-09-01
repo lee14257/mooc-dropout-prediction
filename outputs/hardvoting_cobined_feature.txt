@@ -1,0 +1,43 @@
+--Voting--
+VotingClassifier(estimators=[('rf', RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_we...
+       reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None,
+       silent=True, subsample=1))],
+         flatten_transform=None, n_jobs=None, voting='hard', weights=None)
+
+Train Accuracy:  0.9212902886402694
+Test Accuracy:  0.8697788697788698
+
+
+Classification report for voting(training):
+              precision    recall  f1-score   support
+
+           0       0.96      0.88      0.92     57026
+           1       0.89      0.96      0.92     57026
+
+   micro avg       0.92      0.92      0.92    114052
+   macro avg       0.92      0.92      0.92    114052
+weighted avg       0.92      0.92      0.92    114052
+
+Confusion matrix for Random Forest(training):
+[[50181  6845]
+ [ 2132 54894]]
+
+
+Classification report for voting(test):
+              precision    recall  f1-score   support
+
+           0       0.71      0.62      0.66      4902
+           1       0.91      0.93      0.92     19111
+
+   micro avg       0.87      0.87      0.87     24013
+   macro avg       0.81      0.78      0.79     24013
+weighted avg       0.86      0.87      0.87     24013
+
+
+Confusion matrix for Random Forest(test):
+[[ 3029  1873]
+ [ 1254 17857]]
