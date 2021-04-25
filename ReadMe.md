@@ -6,36 +6,36 @@
 
 Proj_4472_T1_Group6_code.zip 
 
-   1. preprocessing_eventcount.py 
+   1. *preprocessing_eventcount.py* 
       - Pre-processes  1st Feature Vector : Events Count 
       - Includes load data and produces Feature Table in CSV.
 
-   2. preprocessing_daycount.py 
+   2. *preprocessing_daycount.py* 
       - Pre-processes  2nd Feature Vector : Day Count 
       - Includes load data and produces Feature Table in CSV.
 
-   3. preprocessing_combined.py  
+   3. *preprocessing_combined.py*  
       - Pre-processes -> Combines both Feature Vectors 
       - Reads directly from CSV’s produced in a. and b.
       - Produces final Feature Table in CSV.
 
-   4. Rf.py 
+   4. *Rf.py* 
       - Classifier #1 -> Outputs a .txt file and ROC curves
 
-   5. mlp.py 
+   5. *mlp.py* 
       - Classifier #2 -> Outputs a .txt file and ROC curves
 
-   6. xgb.py 
+   6. *xgb.py* 
       - Classifier #3 -> Outputs a .txt file and ROC curves.
 
-   7. hard_voting.py  
+   7. *hard_voting.py*  
       - Calls Ensemble method
 
-   8. dataset (folder) 
+   8. *dataset (folder)* 
       - Contains all the data provided by XueTang.
       - Contains a "feature" folder that stores the CSV's produced in a, b, and c.
 
-   9. outputs (folder) 
+   9. *outputs (folder)* 
       - Contains all .txt files produced in d, e, and f.
       - Contains the ROC curves that are to be manually saved as PNG's.		      	
 
