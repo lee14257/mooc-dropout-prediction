@@ -36,7 +36,13 @@
    - Contains all .txt files produced in d, e, and f.
    - Contains the ROC curves that are to be manually saved as PNG's.		      	
 
-
+### Understanding the Data
+### Data-Based Hypotheses
+### Pre-Processing
+### Classifers
+### Results
+### Ensemble: Hard Voting
+### Conclusion
 
 
 
