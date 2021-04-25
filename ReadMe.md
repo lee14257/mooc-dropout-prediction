@@ -1,4 +1,4 @@
-#The Problem: Students' high dropout rate on MOOC platforms has been heavily criticized, and predicting their likelihood of dropout would be useful for maintaining and encouraging students' learning activities
+###The Problem: Students' high dropout rate on MOOC platforms has been heavily criticized, and predicting their likelihood of dropout would be useful for maintaining and encouraging students' learning activities
 
 I. Proj_4472_T1_Group6_report.pdf
 
@@ -31,10 +31,6 @@ II.Proj_4472_T1_Group6_code.zip
 III. ReadMe.txt
 
 
-######################################################################################################
-#  Note: I ran .py files in a, b, and c again to create the corresponding tables for the test data  #
-#  by changing the file directories and output file names manually				     #
-######################################################################################################
 
 
 
