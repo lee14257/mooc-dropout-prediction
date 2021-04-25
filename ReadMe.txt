@@ -1,4 +1,4 @@
-The Problem: Students' high dropout rate on MOOC platforms has been heavily criticized, and predicting their likelihood of dropout would be useful for maintaining and encouraging students' learning activities
+> The Problem: Students' high dropout rate on MOOC platforms has been heavily criticized, and predicting their likelihood of dropout would be useful for maintaining and encouraging students' learning activities
 
 I. Proj_4472_T1_Group6_report.pdf
 
