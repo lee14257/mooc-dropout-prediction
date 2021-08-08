@@ -74,7 +74,7 @@
    ### Feature Vector 1: Event Counts
   * In order to build this feature set, the data was grouped by the *enrollmend_id*. And then for each *enrollment_id*, each of the event-category counts were added.
    
-   | Index  | Feature |
+   | Index  | Variable |
    | ------------- | ------------- |
    | 1  | # of problems solved  |
    | 2  | # of videos watched  |
@@ -93,7 +93,7 @@
    
    ##### Building the Vector
    
-   | Index  | Feature |
+   | Index  | Variable |
    | ------------- | ------------- |
    | 1  | last log time - first log time  |
    | 2  | # of effective study days  |
