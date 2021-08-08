@@ -2,7 +2,10 @@
 ### Problem Statement
 > Students' high dropout rate on MOOC platforms has been heavily criticized, and predicting their likelihood of dropout would be useful for maintaining and encouraging students' learning activities
 
-### Structure
+
+<details open>
+   <summary> ### Structure </summary>
+   <br>
 1. *preprocessing_eventcount.py* 
    - Pre-processes  1st Feature Vector : Events Count 
    - Includes load data and produces Feature Table in CSV.
@@ -35,6 +38,7 @@
 9. *outputs (folder)* 
    - Contains all .txt files produced in d, e, and f.
    - Contains the ROC curves that are to be manually saved as PNG's.		      	
+</details>
 
 ### Understanding the Data
 ### Data-Based Hypotheses
