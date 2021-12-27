@@ -38,8 +38,6 @@
     - Contains the ROC curves that are to be manually saved as PNG's.		      	
 
 ## Understanding the Data
-<details>
-   <summary> Read </summary>
    
   - `Date.csv` : Gives us more information about the timespan of each course
   - `Object.csv` : Gives us more information about each module in a course 
@@ -47,11 +45,8 @@
   - `Log_(train/test).csv` : Behavior Records
   - `True_train.csv` : Ground Truth about a dropout
    
-</details>
 
 ## Data-Based Hypotheses
-<details>
-   <summary> Read </summary>
       
 >Any student who completes a course would have more counts for each event i.e. watching more course videos, solving problems, participating in discussions etc. 
 
@@ -62,11 +57,7 @@
 ![upload_1](https://user-images.githubusercontent.com/15091955/128627874-dc1e87a4-f0c6-4326-b40b-a3bbc83af263.png)
    
 
-</details>
-
 ## Pre-Processing & Feature Engineering
-<details>
-   <summary> Read </summary>
 
    ### Feature Vector 1: Event Counts
   * In order to build this feature set, the data was grouped by the *enrollmend_id*. And then for each *enrollment_id*, each of the event-category counts were added.
@@ -102,8 +93,7 @@
   * The courses' duration was divided into 3 equal time-spans: beginning, middle, and end. This information was useful to determine key user behaviors (eg. users that had some log record during the end period of a course were more likely to complete the course without a dropout, etc.)
    
    > Both feature vectors proved to give useful insight into the users' behaviors of dropout. As a result, the two vectors were combined to form a final feature vector with 14 Variables.
-   
-</details>
+
 
 ## Classifers
 ## Results
