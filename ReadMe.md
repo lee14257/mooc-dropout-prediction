@@ -4,7 +4,6 @@
 
 ## Code Structure
 <details>
-    <summary> Read </summary>
    
 #### *preprocessing_eventcount.py* 
     - Pre-processes  1st Feature Vector : Events Count 
